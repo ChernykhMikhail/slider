@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="img/1.jpg" alt="1" class="fade active">
+                <img src="img/2.jpg" alt="2" class="fade">
+                <img src="img/3.jpg" alt="3" class="fade">
+                <img src="img/4.jpg" alt="4" class="fade">
+                <img src="img/5.jpg" alt="5" class="fade">
+                <img src="img/slide1.jpg" alt="5" class="fade">
+                <span class="prev-slide"></span>
+                <span class="next-slide"></span>
+                <span class="slider-option">
+                    <input id="auto-play" type="checkbox"> 
+                    <label for="auto-play">Auto-play</label>
+                </span>
+            </div>
+            <div class="rects">
+                <ul>
+                    <li class="current-rect"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
